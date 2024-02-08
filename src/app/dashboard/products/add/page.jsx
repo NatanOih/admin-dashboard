@@ -47,15 +47,15 @@ export default function AddProductPage() {
         />
         <input
           className="w-[45%]  p-5 bg-bg text-text border-2 border-solid border-[#2e374a] rounded-sm "
-          inputmode="numeric"
-          placeholder="price"
-          name="stock"
+          inputmode="text"
+          placeholder="color"
+          name="color"
         />
         <input
           className="w-[45%]  p-5 bg-bg text-text border-2 border-solid border-[#2e374a] rounded-sm "
-          inputmode="numeric"
-          placeholder="price"
-          name="stock"
+          inputmode="text"
+          placeholder="size"
+          name="size"
         />
         <textarea
           className="w-full p-5 bg-bg text-text border-2 border-solid border-[#2e374a] rounded-sm "
